@@ -28,6 +28,7 @@ if (message.content.startsWith(PrEfix + 'st')) {
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame("Executive.#4945","https://twitch.tv/idk");
 });
 
 client.on('message', msg => {
